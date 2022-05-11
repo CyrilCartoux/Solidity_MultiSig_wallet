@@ -1,0 +1,21 @@
+{
+  "name": "multisig",
+  "version": "1.0.0",
+  "description": "Ethereum Multi Signature Wallet",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.0.0",
+    "web3": "^1.7.3"
+  }
+}
