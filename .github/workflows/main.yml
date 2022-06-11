@@ -25,10 +25,7 @@ jobs:
         cache-dependency-path: package-lock.json
     - name: Setup
       run: npm ci
-      working-directory: ethereum
     - name: Install Truffle
       run: npm install truffle -g
-      working-directory: ethereum
     - name: Test
       run: truffle test
-      working-directory: ethereum
