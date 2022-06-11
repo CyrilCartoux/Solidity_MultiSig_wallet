@@ -1,4 +1,4 @@
-name: MultiSigWallet 
+name: MultiSigWallet - test backend
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: package-lock.json
+        cache-dependency-path: ethereum/package-lock.json
     - name: Setup
       run: npm ci
     - name: Install Truffle
